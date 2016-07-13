@@ -1,6 +1,5 @@
 from optparse import OptionParser
 import subprocess
-import requests
 
 CODE_SIGN_IDENTITY = 'iPhone Distribution: Hangzhou Ouer Technology Co., Ltd'
 

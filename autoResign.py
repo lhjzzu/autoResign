@@ -1,6 +1,5 @@
 from optparse import OptionParser
 import subprocess
-import requests
 
 #configuration for iOS build setting
 CODE_SIGN_IDENTITY = "iPhone Distribution: Hangzhou Ouer Technology Co., Ltd"

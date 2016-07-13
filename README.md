@@ -3,6 +3,8 @@
 
 # Usage
     -f --file the name of ipa
+    
+    使用脚本的时候，脚本中的CODE_SIGN_IDENTITY = "iPhone Distribution: Hangzhou Ouer Technology Co., Ltd"，CODE_SIGN_IDENTITY对应的证书信息，一定要改成自己的证书信息。
 # prepare
 
 首先阅读[ios打包--ipa包重签(四)](http://www.lhjzzu.com/2016/05/03/ios-ipa-codesign/),做好准备工作
