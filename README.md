@@ -4,16 +4,17 @@
 # Usage
 
     -f --file the name of ipa
+    即:-f xxx(ipa包的名字)
     
     *****一定要注意*****
-    使用脚本的时候，脚本中的CODE_SIGN_IDENTITY = "iPhone Distribution: Hangzhou Ouer Technology Co., Ltd"，CODE_SIGN_IDENTITY对应的证书信息，一定要改成自己的证书信息。
+    使用脚本的时候，脚本中的CODE_SIGN_IDENTITY = "iPhone Distribution: Hangzhou Ouer Technology Co., Ltd"，CODE_SIGN_IDENTITY对应的企业证书信息，一定要改成自己的企业证书信息。
 # prepare
 
 首先阅读[ios打包--ipa包重签(四)](http://www.lhjzzu.com/2016/05/03/ios-ipa-codesign/),做好准备工作
 
 
 * 一个已经签名的ipa包（例如 Test.ipa）
-* 企业发布证书，以及distribution的.mobilepro）vision文件，命名为embedded
+* 企业发布证书，以及distribution的.mobileprovision文件，命名为embedded
 * embedded.mobileprovision的bundle identify可以自定(例如com.ouer.test)
 * 创建一个entitlements.plist文件,内容如下
 
