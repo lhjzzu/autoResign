@@ -2,8 +2,10 @@
 这是一个python格式的自动化重签名ipa包的脚本
 
 # Usage
+
     -f --file the name of ipa
     
+    *****一定要注意*****
     使用脚本的时候，脚本中的CODE_SIGN_IDENTITY = "iPhone Distribution: Hangzhou Ouer Technology Co., Ltd"，CODE_SIGN_IDENTITY对应的证书信息，一定要改成自己的证书信息。
 # prepare
 
